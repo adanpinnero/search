@@ -7,16 +7,17 @@
               border-radius: 10px;
               border: 1px solid #GRAY;
               padding: 1em;
-              width: 50%;
+              width: 25%;
               height: 10px;
             }
             #button1 {
               border-radius: 1px;
               width: 12.5%;
               height: 30px;
+              background-color: blue;
             }
             div {
-                text-align: center;
+                text-align: left;
                 padding: 10px;
             }
             #cabecera{
@@ -35,19 +36,30 @@
             <a href="index.html">GOOGLE</a>
             <a href="image.html">IMAGES</a>
         </div>
-        <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        </div>
-        <div>
-            <h3>Avanzado</h3>
-        </div>
+        
         <form action="https://google.com/search">
             <div>
-                <input id="input_box" type="text" name="q" align="centered">
+                <p>Todas estas palabras
+                <input id="input_box" type="text" name="q" align="left">
+                </p>
+            </div>
+            <div>
+                <p>Esta frase exacta
+                <input id="input_box" type="text" name="q" align="left">
+                </p>
+            </div>
+            <div>
+                <p>Alguna de estas palabras
+                <input id="input_box" type="text" name="q" align="left">
+                </p>
+            </div>
+            <div>
+                <p>Ninguna de estas palabras
+                <input id="input_box" type="text" name="q" align="left">
+                </p>
             </div>
             <div>
                 <input id="button1" type="submit" value="Google Search">
-                <input id="button1" type="submit" value="Voy a tener suerte" name="btnI">
             </div>
         </form>
     </body>
