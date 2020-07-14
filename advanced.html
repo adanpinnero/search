@@ -2,11 +2,54 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            #input_box {
+              border-radius: 10px;
+              border: 1px solid #GRAY;
+              padding: 1em;
+              width: 50%;
+              height: 10px;
+            }
+            #button1 {
+              border-radius: 1px;
+              width: 12.5%;
+              height: 30px;
+            }
+            div {
+                text-align: center;
+                padding: 10px;
+            }
+            #cabecera{
+                text-align: right;
+                padding: 10px;
+            }
+            a {
+                text-align: center;
+                padding: 10px;
+            }
+            
+        </style>
     </head>
     <body>
+        <div id="cabecera">
+            <a href="image.html">Image</a>
+            <a href="index.html">Google</a>
+        </div>
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div>
+            <h3>Avanzado</h3>
+        </div>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div>
+                <input id="input_box" type="text" name="q" align="centered">
+            </div>
+            <div>
+                <input id="button1" type="submit" value="Google Search">
+                <input id="button1" type="submit" value="Voy a tener suerte">
+            </div>
         </form>
     </body>
 </html>
+
