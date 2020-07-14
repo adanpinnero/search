@@ -7,7 +7,7 @@
               border-radius: 10px;
               border: 1px solid #GRAY;
               padding: 1em;
-              width: 25%;
+              width: 50%;
               height: 10px;
             }
             #button1 {
@@ -15,13 +15,24 @@
               width: 25%;
               height: 30px;
             }
+            div {
+                text-align: center;
+                padding: 10px;
+            }
         </style>
     </head>
     <body>
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
         <form action="https://google.com/search">
-            <input id="input_box" type="text" name="q">
-            <input id="button1" type="submit" value="Google Search">
-            <input id="button1" type="submit" value="Voy a tener suerte">
+            <div>
+                <input id="input_box" type="text" name="q" align="centered">
+            </div>
+            <div>
+                <input id="button1" type="submit" value="Google Search">
+                <input id="button1" type="submit" value="Voy a tener suerte">
+            </div>
         </form>
     </body>
 </html>
