@@ -7,14 +7,13 @@
               border-radius: 10px;
               border: 1px solid #GRAY;
               padding: 1em;
-              width: 25%;
+              width: 200px;
               height: 10px;
             }
             #button1 {
               border-radius: 1px;
               width: 12.5%;
               height: 30px;
-              background-color: blue;
             }
             div {
                 text-align: left;
@@ -28,7 +27,7 @@
                 text-align: center;
                 padding: 10px;
             }
-            
+
         </style>
     </head>
     <body>
@@ -36,27 +35,27 @@
             <a href="index.html">GOOGLE</a>
             <a href="image.html">IMAGES</a>
         </div>
-        
+
         <form action="https://google.com/search">
             <div>
-                <p>Todas estas palabras
-                <input id="input_box" type="text" name="q" align="left">
-                </p>
-            </div>
-            <div>
-                <p>Esta frase exacta
-                <input id="input_box" type="text" name="q" align="left">
-                </p>
-            </div>
-            <div>
-                <p>Alguna de estas palabras
-                <input id="input_box" type="text" name="q" align="left">
-                </p>
-            </div>
-            <div>
-                <p>Ninguna de estas palabras
-                <input id="input_box" type="text" name="q" align="left">
-                </p>
+                <table>
+                    <tr>
+                        <td>Todas estas palabras</td>
+                        <td><input id="input_box" type="text" name="as_q" align="left"></td>
+                    </tr>
+                    <tr>
+                        <td>Esta frase exacta</td>
+                        <td><input id="input_box" type="text" name="as_apq" align="left"></td>
+                    </tr>
+                    <tr>
+                        <td>Alguna de estas palabras</td>
+                        <td> <input id="input_box" type="text" name="as_oq" align="left"></td>
+                    </tr>
+                     <tr>
+                        <td>Ninguna de estas palabras</td>
+                        <td><input id="input_box" type="text" name="as_eq" align="left"></td>
+                    </tr>
+                </table>
             </div>
             <div>
                 <input id="button1" type="submit" value="Google Search">
